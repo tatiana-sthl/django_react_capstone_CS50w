@@ -34,7 +34,7 @@ export function AddBook(props) {
     <section className="input_section">
       <Card>
         <Card.Header>
-          Add a new book
+          New book
         </Card.Header>
         <Card.Body className="card-body">
           <Form onSubmit={handleSubmit}>
@@ -69,7 +69,7 @@ export function AddBook(props) {
             <Form.Check
               type="checkbox"
               name="finished"
-              label="Finished?"
+              label="Archive"
               checked={book.finished}
               onChange={handleChange}/>
             <div className="d-grid">

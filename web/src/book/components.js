@@ -2,7 +2,7 @@ import {Col, Row, Button} from "react-bootstrap";
 
 export default function Book(props) {
   const {book} = props;
-  const toogleButtonText = book.finished ? "Unfinish" : "Finish";
+  const toogleButtonText = book.finished ? "Unfinish" : "Archived";
 
   return (
     <div>
