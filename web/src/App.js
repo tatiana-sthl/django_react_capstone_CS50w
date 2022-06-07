@@ -66,12 +66,13 @@ function App() {
     });
   }
 
+  
   return (
     <div>
       <header>
         <Navbar bg="light" className="mx-2">
-          <Navbar.Brand className="navbar-brand" href="#">
-            Bookshelf
+          <Navbar.Brand className="navbar-brand">
+            Library
           </Navbar.Brand>
         </Navbar>
       </header>
