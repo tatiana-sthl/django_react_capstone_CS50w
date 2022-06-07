@@ -1,4 +1,5 @@
 import {Col, Row, Button} from "react-bootstrap";
+import "../styles/styles.css";
 
 export default function Book(props) {
   const {book} = props;

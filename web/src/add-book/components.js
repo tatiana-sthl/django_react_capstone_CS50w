@@ -1,5 +1,6 @@
 import {useState} from "react";
 import {Button, Card, FloatingLabel, Form} from "react-bootstrap";
+import "../styles/styles.css";
 
 export function AddBook(props) {
 

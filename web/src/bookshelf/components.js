@@ -1,5 +1,6 @@
 import Book from "../book/components";
 import {Table} from "react-bootstrap";
+import "../styles/styles.css";
 
 export function Bookshelf(props) {
   const bookshelfName = props.finished ? "Archived" : "Books in progress"

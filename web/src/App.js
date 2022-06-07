@@ -3,6 +3,7 @@ import {Bookshelf} from "./bookshelf/components";
 import {useEffect, useState} from "react";
 import {deleteBook, getFinishedList, getUnfinishedList, saveBook, setFinished} from "./repository";
 import {Col, Container, Navbar, Row} from "react-bootstrap";
+import "./styles/styles.css";
 
 function App() {
   const [unfinishedList, setUnfinishedList] = useState([]);
@@ -66,12 +67,19 @@ function App() {
     });
   }
 
-  
+
   return (
     <div>
       <header>
-        <Navbar bg="light" className="mx-2">
-          <Navbar.Brand className="navbar-brand">
+        <Navbar bg="warning" variant="dark">
+          <Navbar.Brand className="display-4 text-center">
+            <img
+              alt=""
+              src="img/bookopen.png"
+              width="30"
+              height="30"
+              className="d-inline-block center"
+            />{' '}
             Library
           </Navbar.Brand>
         </Navbar>
