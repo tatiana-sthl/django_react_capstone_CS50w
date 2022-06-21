@@ -71,15 +71,8 @@ function App() {
   return (
     <div>
       <header>
-        <Navbar bg="warning" variant="dark">
+        <Navbar>
           <Navbar.Brand className="display-4 text-center">
-            <img
-              alt=""
-              src="img/bookopen.png"
-              width="30"
-              height="30"
-              className="d-inline-block center"
-            />{' '}
             Library
           </Navbar.Brand>
         </Navbar>
